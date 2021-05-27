@@ -34,7 +34,7 @@ for line in ipo.readlines():
 #    print(i+"\t"+j)
 ipo.close()
 
-for line in open("../rice_merge_update.gtf",'r').readlines():
+for line in open(sys.argv[2],'r').readlines():
     line  = line.strip()
     if line[0]=="#":continue
     if line.split("\t")[2] == "gene":continue
