@@ -1,4 +1,7 @@
 # GTF-Annotation-comparison-and-complement
+
+#Using stringtie to generate a new annotation file in GTF format through transcriptome assembly.
+
 #The scripts is uesd to complement extra transcripts not annotated in reference annotation
 
 #Here, I get a re-annotation file in GTF format. I want to add the new transcripts to my reference annotation. 
